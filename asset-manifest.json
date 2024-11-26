@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/github-receipt/static/css/main.4ef52486.css",
+    "main.js": "/github-receipt/static/js/main.c9c96aaf.js",
+    "index.html": "/github-receipt/index.html",
+    "main.4ef52486.css.map": "/github-receipt/static/css/main.4ef52486.css.map",
+    "main.c9c96aaf.js.map": "/github-receipt/static/js/main.c9c96aaf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ef52486.css",
+    "static/js/main.c9c96aaf.js"
+  ]
+}
