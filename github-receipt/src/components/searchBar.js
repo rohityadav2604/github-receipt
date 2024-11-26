@@ -24,7 +24,6 @@ const SearchBar = () => {
       setError(null);
       const userDetails = await fetchUser(inputText);
 
-      console.log("user", userDetails)
       setUserData(userDetails);
     } catch (err) {
       setError('Error fetching user data');

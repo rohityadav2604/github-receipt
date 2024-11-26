@@ -4,7 +4,7 @@ const Receipt = ({ userData }) => {
   if (!userData) return null;
 
   return (
-    <div className="max-w-md mx-auto bg-white p-8 rounded-lg shadow-lg font-mono mt-8">
+    <div className="max-w-md mx-auto bg-grey p-8 rounded-lg shadow-lg font-mono mt-8">
       <div className="text-center mb-6">
         <h1 className="text-2xl font-bold mb-2">GITHUB RECEIPT</h1>
         <p className="text-sm">{new Date().toLocaleDateString()}</p>
@@ -52,6 +52,11 @@ const Receipt = ({ userData }) => {
           </div>
           <span>{userData.following}</span>
         </div>
+      </div>
+
+      <div className='text-left text-sm'>
+        <p>Top Languages</p>
+        <div>{userData.topLanguage.join(', ')}</div>
       </div>
 
       <div className="text-center text-sm mt-8">
